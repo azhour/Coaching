@@ -1,6 +1,6 @@
 # Realize a site of sports coaching
 
-## Not of one page,4 pages:
+## 4 pages:
 * Homepage: activities with description and
 Images
 * Price page
