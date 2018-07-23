@@ -26,18 +26,7 @@
     #contacts {height: 80%;top:2%;}
     #map-container {height: 45%;margin-top:35px; }
 </style>
-<style>
-  html { height: 100% }
-  body {
-      height: 100%;
-      background-image: url(./img/3.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-  }
-  #contacts {height: 80%;top:2%;}
-  #map-container {height: 45%;margin-top:35px; }
-</style>
+
 </head>
 
 
@@ -51,7 +40,7 @@
 <!-- Navigation bar -->
 <header>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-<a class="navbar-brand" href="#">Navbar</a>
+<a class="navbar-brand" href="index.html">Navbar</a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -59,15 +48,15 @@
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
   <ul class="navbar-nav mr-auto">
     <li class="nav-item active">
-      <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">A propos</a>
+      <a class="nav-link" href="about.html">A propos</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Prestations</a>
+      <a class="nav-link" href="prestations.html">Prestations</a>
     <li class="nav-item">
-      <a class="nav-link disabled" href="#">Contact</a>
+      <a class="nav-link disabled" href="contact.html">Contact</a>
     </li>
   </ul>
 </div>
@@ -79,28 +68,38 @@
     <p>Si mon profil vous intéresse et que vous souhaitez en savoir plus, vous pouvez me contacter ou vous inscrire via le formulaire ci-dessous.
      Si vous êtes déjà inscrit et que vous voulez réservez votre séance, c'est sur le calendrier que ça se passe. </p>
 
-<iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=2&amp;hl=fr&amp;bgcolor=%23ffffff&amp;src=7bgcls0jdbuoutrlga8fdskji4%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=e_2_en%23weeknum%40group.v.calendar.google.com&amp;color=%23B1365F&amp;ctz=Europe%2FParis" style="border-width:0" width="500" height="300" frameborder="0" scrolling="no"></iframe>
+     <form>
+
+       <div class="form-group">
+     <input type="text" id="disabledTextInput" class="form-control" placeholder="Nom/Prénom*">
+   </div>
+   <div class="form-group">
+    <input type="text" id="disabledTextInput" class="form-control" placeholder="Téléphone*">
+   </div>
+       <div class="form-group">
+         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nom@example.com">
+       </div>
+       <div class="form-group">
+         <textarea class="form-control" id="exampleFormControlTextarea1"  placeholder="Votre message*"rows="3"></textarea>
+       </div>
+     </form>
 
 
-
+<iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=2&amp;hl=fr&amp;bgcolor=%23ffffff&amp;src=7bgcls0jdbuoutrlga8fdskji4%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=e_2_en%23weeknum%40group.v.calendar.google.com&amp;color=%23B1365F&amp;ctz=Europe%2FParis" style="border-width:0" width="300" height="300" frameborder="0" scrolling="no"></iframe>
 
 
 <div>
-
   <p>Vous pouvez me contacter à cette adresse :</p>
-
   <strong>Pablo MARTINEZ</strong><br>
-
     89 rue de la liberté<br>
-
     06100 Nice<br>
-
 </div>
 
   <div id="map-container" class="col-sm-6">
   </div>
   <div class="adress">
 
+<h2>Follow moi</h2>
 
 
 
@@ -111,6 +110,8 @@
       89 rue de la liberté<br>
       06100 Nice<br>
   </address>
+  Tél.: 06 00 00 00 00<br/>
+  Mail: Pablo.Martinez@example.com
 </footer>
 
 
