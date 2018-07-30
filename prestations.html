@@ -16,13 +16,11 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<body class="container-fluid">
+  <header class="row">
+    <img  class="col-3"src="img/logo.png" alt="">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light col-9">
+
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
@@ -42,33 +40,35 @@
 </nav>
   </header>
 
-  <div class="container">
+  <div class="">
   <h2 class="text-center mt-2">Nos forfaits</h2>
 
-  <div class="container row col-11 mx-auto mt-5">  <!-- Program-->
+  <div class=" row mx-auto">  <!-- Program-->
 
-  <div class="card col-lg-3 col-sm-12 mx-auto mt-3" style="width: 18rem;"> <!-- boxe program -->
-    <img class="card-img-top pt-2" src="img/images2.jpeg" alt="Card image cap">
+  <div class="card col-sm-5 col-xs-12 col-lg-3 mx-auto my-3 border border-primary" style="width: 18rem;"> <!-- boxe program -->
+    <img class="card-img-top my-3" src="img/boxe3.jpeg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Boxe</h5> <!-- title of sport -->
-      <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium laboriosam animi iste eum natus, blanditiis consequuntur consectetur id, voluptas, quo impedit iure neque tenetur possimus! Nisi soluta ut labore voluptate.Some quick example text to build on the card title and make up the bulk of the card's content.</p><!-- details of this training -->
+      <h5 class="card-title text-center font-weight-bold">Boxe</h5> <!-- title of sport -->
+      <p class="card-text text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium laboriosam animi iste eum natus, blanditiis consequuntur consectetur id, voluptas, quo impedit iure neque tenetur possimus! Nisi soluta ut labore voluptate.Some quick example text to build on the card title and make up the bulk of the card's content.</p><!-- details of this training -->
+      <a href="contact.html" class="btn btn-primary">Entraînes-toi!</a>
+
     </div>
   </div>
 
-  <div class="card col-lg-3 col-sm-12 mx-auto mt-3" style="width: 18rem;"> <!-- fitness program -->
-    <img class="card-img-top pt-2" src="img/images.jpeg" alt="Card image cap">
+  <div class="card col-sm-5 col-xs-12 col-lg-3 mx-auto my-3 border border-primary" style="width: 18rem;"> <!-- fitness program -->
+    <img class="card-img-top my-3 " src="img/fitness.jpeg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Fitness</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Train w/ me</a>
+      <h5 class="card-title text-center font-weight-bold">Fitness</h5>
+      <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ratione, delectus quidem quibusdam possimus, sint, est qui quia esse vel similique beatae? Quibusdam necessitatibus hic aspernatur itaque vero accusantium est.</p>
+      <a href="contact.html" class="btn btn-primary">Entraînes-toi!</a>
     </div>
   </div>
-  <div class="card col-lg-3 col-sm-12 mx-auto mt-5" style="width: 18rem;"><!-- jogging training -->
-    <img class="card-img-top pt-2" src="img/images3.jpeg" alt="Card image cap">
+  <div class="card col-xs-12 col-sm-5 col-lg-3 mx-auto my-3 border border-primary" style="width: 18rem;"><!-- jogging training -->
+    <img class="card-img-top my-3" src="img/course2.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Running</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <h5 class="card-title text-center font-weight-bold">Running</h5>
+      <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente voluptate quaerat vel. Ullam quos vitae id ut, commodi odit dolorem aperiam temporibus, ipsum veniam veritatis odio illo eligendi nobis in.</p>
+      <a href="contact.html" class="btn btn-primary">Entraînes-toi!</a>
     </div>
   </div>
   </div>
@@ -76,7 +76,7 @@
   <h2 class="text-center mt-2">Nos tarifs</h2>
 <div class=" row">
   <div class= "mx-auto col-xl-5 col-lg-5 col-md-6 col-xs-6">
-      <table class="table table-hover table-danger mt-3">
+      <table class="table table-hover table-primary mt-3">
   <thead>
     <tr>
       <th scope="col">#</th>
@@ -117,36 +117,30 @@
 
 
 <!-- Social networks-->
+<div class=" socialNet">
 <h2 class="text-center">Follow moi sur les réseaux sociaux</h2>
 
 <div class=" row mx-auto ">
-<div class=" col-12 col-md-6 col-lg-3 my-3">
-  <img src="img/icon.png" class="rounded" alt="">
+<div class=" sov col-12 col-md-6 col-lg-3 my-3">
+  <img src="img/runn(1).jpeg" class="rounded img-fluid social" alt="">
 </div>
-<div class=" col-12 col-md-6 col-lg-3 my-3 ">
-  <img src="img/icon.png" class="rounded" alt="">
-</div>
-<div class=" col-12 col-md-6 col-lg-3 my-3">
-  <img src="img/icon.png" class="rounded" alt="">
+<div class=" col-12 col-md-6 col-lg-3 my-3 social">
+  <img src="img/runn(1).jpeg" class="rounded img-fluid" alt="">
 </div>
 <div class=" col-12 col-md-6 col-lg-3 my-3">
-  <img src="img/icon.png" class="rounded" alt="">
-  </div>
+  <img src="img/runn(1).jpeg" class="rounded img-fluid social" alt="">
+</div>
+<div class=" col-12 col-md-6 col-lg-3 my-3">
+  <img src="img/runn(1).jpeg" class="rounded img-fluid social" alt=""  </div>
+</div>
 </div>
 
-<footer>
-<div class="row">
-    <address>
-    <strong>Pablo MARTINEZ</strong><br>
-      89 rue de la liberté<br>
-      06100 Nice<br>
-  </address>
-  Tél.: 06 00 00 00 00<br/>
-  Mail: Pablo.Martinez@example.com
+<!--footer: adress and copyright-->
 
-  <p>©Pablo MARTINEZ, PM-coaching SARL, NICE. Une réalisation Azhour Zoubir</p>
+<footer class="">
 
-  </div>
+  <p class="text-center">©Pablo MARTINEZ,Coaching. Une réalisation Azhour Zoubir</p>
+
 </footer>
 </div>
 

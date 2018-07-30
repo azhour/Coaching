@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body class="container-fluid">
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
@@ -24,14 +24,12 @@
   <!-- Add your site or application content here -->
   <!-- Navigation bar -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <nav class="navbar navbar-expand-lg navbar-dark row ">
+  <a class="" href="index.html"><img class="" src="img/logo.png" alt=""></a>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+
+  <div class="collapse navbar-collapse col-5" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto mt-2">
       <li class="nav-item active">
         <a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a>
       </li>
@@ -41,7 +39,7 @@
       <li class="nav-item">
         <a class="nav-link" href="prestations.html">Prestations</a>
       <li class="nav-item">
-        <a class="nav-link disabled" href="contact.html">Contact</a>
+        <a class="nav-link" href="contact.html">Contact</a>
       </li>
     </ul>
   </div>
@@ -58,21 +56,19 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100 " src="img/fb.jpeg" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100 " src="img/yt.jpeg" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/twitter.jpeg" alt="Third slide">
-    </div>
-    <div class="carousel-item">
-  <img src="img/running.jpeg" alt="images">
-  <div class="carousel-caption d-none d-md-block">
-    <h5>image</h5>
-    <p>allo</p>
-  </div>
+      <img class="d-block w-100 " src="img/fitness.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+  <h4>"Deviens ta meilleure version!"</h4>
+  <p>Pablo Martinez</p>
 </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 " src="img/boxe3.jpeg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/course2.jpg" alt="Third slide">
+    </div>
+
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -84,73 +80,66 @@
   </a>
 </div>
 
-<div class="container">
+<div class="">
 
 <!-- Title of second part of home page -->
 <h2 class="text-center my-3">Découvre mon programme</h2>
 
 <div class=" row mx-auto">  <!-- Program-->
 
-<div class="card col-sm-5 col-xs-12 col-lg-3 mx-auto my-3" style="width: 18rem;"> <!-- boxe program -->
-  <img class="card-img-top" src="img/boxe3.jpeg" alt="Card image cap">
+<div class="card col-sm-5 col-xs-12 col-lg-3 mx-auto my-3 border border-primary" style="width: 18rem;"> <!-- boxe program -->
+  <img class="card-img-top my-3" src="img/boxe3.jpeg" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Boxe</h5> <!-- title of sport -->
-    <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium laboriosam animi iste eum natus, blanditiis consequuntur consectetur id, voluptas, quo impedit iure neque tenetur possimus! Nisi soluta ut labore voluptate.Some quick example text to build on the card title and make up the bulk of the card's content.</p><!-- details of this training -->
+    <h5 class="card-title text-center font-weight-bold">Boxe</h5> <!-- title of sport -->
+    <p class="card-text text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium laboriosam animi iste eum natus, blanditiis consequuntur consectetur id, voluptas, quo impedit iure neque tenetur possimus! Nisi soluta ut labore voluptate.Some quick example text to build on the card title and make up the bulk of the card's content.</p><!-- details of this training -->
     <a href="contact.html" class="btn btn-primary">Inscris-toi!</a>
 
   </div>
 </div>
 
-<div class="card col-sm-5 col-xs-12 col-lg-3 mx-auto my-3" style="width: 18rem;"> <!-- fitness program -->
-  <img class="card-img-top" src="img/fitness.jpeg" alt="Card image cap">
+<div class="card col-sm-5 col-xs-12 col-lg-3 mx-auto my-3 border border-primary" style="width: 18rem;"> <!-- fitness program -->
+  <img class="card-img-top my-3 " src="img/fitness.jpeg" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Fitness</h5>
-    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ratione, delectus quidem quibusdam possimus, sint, est qui quia esse vel similique beatae? Quibusdam necessitatibus hic aspernatur itaque vero accusantium est.</p>
+    <h5 class="card-title text-center font-weight-bold">Fitness</h5>
+    <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ratione, delectus quidem quibusdam possimus, sint, est qui quia esse vel similique beatae? Quibusdam necessitatibus hic aspernatur itaque vero accusantium est.</p>
     <a href="contact.html" class="btn btn-primary">Inscris-toi!</a>
   </div>
 </div>
-<div class="card col-xs-12 col-sm-5 col-lg-3 mx-auto my-3" style="width: 18rem;"><!-- jogging training -->
-  <img class="card-img-top" src="img/runn.jpeg" alt="Card image cap">
+<div class="card col-xs-12 col-sm-5 col-lg-3 mx-auto my-3 border border-primary" style="width: 18rem;"><!-- jogging training -->
+  <img class="card-img-top my-3" src="img/course2.jpg" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Running</h5>
-    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente voluptate quaerat vel. Ullam quos vitae id ut, commodi odit dolorem aperiam temporibus, ipsum veniam veritatis odio illo eligendi nobis in.</p>
+    <h5 class="card-title text-center font-weight-bold">Running</h5>
+    <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente voluptate quaerat vel. Ullam quos vitae id ut, commodi odit dolorem aperiam temporibus, ipsum veniam veritatis odio illo eligendi nobis in.</p>
     <a href="contact.html" class="btn btn-primary">Inscris-toi!</a>
   </div>
 </div>
 </div>
 
 <!-- Social networks-->
+<div class=" socialNet">
 <h2 class="text-center">Follow moi sur les réseaux sociaux</h2>
 
 <div class=" row mx-auto ">
-<div class=" col-12 col-md-6 col-lg-3 my-3">
-  <img src="img/icon.png" class="rounded" alt="">
+<div class=" sov col-12 col-md-6 col-lg-3 my-3">
+  <img src="img/runn(1).jpeg" class="rounded img-fluid social" alt="">
 </div>
-<div class=" col-12 col-md-6 col-lg-3 my-3 ">
-  <img src="img/icon.png" class="rounded" alt="">
-</div>
-<div class=" col-12 col-md-6 col-lg-3 my-3">
-  <img src="img/icon.png" class="rounded" alt="">
+<div class=" col-12 col-md-6 col-lg-3 my-3 social">
+  <img src="img/runn(1).jpeg" class="rounded img-fluid" alt="">
 </div>
 <div class=" col-12 col-md-6 col-lg-3 my-3">
-  <img src="img/icon.png" class="rounded" alt="">
-  </div>
+  <img src="img/runn(1).jpeg" class="rounded img-fluid social" alt="">
+</div>
+<div class=" col-12 col-md-6 col-lg-3 my-3">
+  <img src="img/runn(1).jpeg" class="rounded img-fluid social" alt=""  </div>
+</div>
 </div>
 
 <!--footer: adress and copyright-->
 
-<footer>
-  <div class="row">
-  <address>
-    <strong>Pablo MARTINEZ</strong><br>
-      89 rue de la liberté<br>
-      06100 Nice<br>
-  </address>
-  Tél.: 06 00 00 00 00<br>
-  Mail: Pablo.Martinez@example.com
+<footer class="">
 
-  <p>©Pablo MARTINEZ,Coaching. Une réalisation Azhour Zoubir</p>
-</div>
+  <p class="text-center">©Pablo MARTINEZ,Coaching. Une réalisation Azhour Zoubir</p>
+
 </footer>
 </div>
 

@@ -96,7 +96,35 @@ textarea {
 /* ==========================================================================
    Author's custom styles */
 
+header{
+  background: #293540;
+  color:#7cbce2;
+}
 
+
+
+.socialNet{
+  background: #e1ebf5;
+}
+.social{
+  opacity: 0.5;
+   filter: alpha(opacity=50);
+}
+ .social:hover{
+   opacity: 1.0;
+    filter: alpha(opacity=100);
+ }
+
+ footer{
+   background: #293540;
+   color:#7cbce2;
+ }
+a{
+  color:#7cbce2;
+}
+ a:hover{
+   color:#fc561f;
+ }
 
    html {
   font-size: 1rem;
